@@ -26,6 +26,9 @@
     "SESSION_STRING": {
       "description": "user session string"
     },
+    "RCLONE_PASS":{
+    "description": "base64 rclone config"
+    },
     "chat_Id": {
       "description": "controller chat id"
     }
