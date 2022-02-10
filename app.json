@@ -31,7 +31,10 @@
     },
     "chat_Id": {
       "description": "controller chat id"
-    }
+    },
+      "APP_NAME": {
+          "description": "Copy-Paste the app name that you just typed above."
+      }
   },
   "buildpacks": [
     {
