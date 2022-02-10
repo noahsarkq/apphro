@@ -1,0 +1,47 @@
+{
+  "name": "userborg",
+  "description": "Userborg to help AI",
+  "keywords": [
+    "telegram",
+    "pyrogram",
+    "rclone",
+    "python",
+    "modular",
+    "media"
+  ],
+  "repository": "https://github.com/noahsarkq/userbor",
+  "success_url": "/",
+  "website": "https://github.com/noahsarkq/userbor",
+  "env": {
+    "ENV": {
+      "description": "Set this to True if you don't want to crash the bot",
+      "value": "True"
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org"
+    },
+    "SESSION_STRING": {
+      "description": "user session string"
+    },
+    "chat_Id": {
+      "description": "controller chat id"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/amivin/rclone-heroku.git"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
