@@ -2,3 +2,5 @@ pyrogram
 python-dotenv
 tgcrypto
 aiohttp
+telegram_upload
+yt-dlp
